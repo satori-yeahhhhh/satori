@@ -1,0 +1,156 @@
+
+
+body{
+    background:#c4c4c4;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.result{
+    background: #FFFFFF;
+    display: inline-block;
+    height: 250px;
+    line-height: 100px;
+    width: 350px; 
+}
+
+
+/*
+button{
+    border: none;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 25px;
+    height: 120px;
+    width: 120px; 
+}
+*/
+
+
+.start{
+    background: #34929d9a;
+}
+.stop{
+    background: #F62A00;
+}
+div{
+    /*margin: 20px;*/
+}
+
+.message {
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clear: both;
+  }
+  
+  .typing-demo {
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 40px;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+/*
+CSSボタン立体その2
+ */
+ 
+
+  .btn-square-slant {
+    display: inline-block;
+    position: relative;
+    padding: 0.5em 1.4em;
+    text-decoration: none;
+    background: #ff0000;
+    color: #FFF;
+    border-bottom: solid 5px #b10606;
+    border-right: solid 5px #b90000;
+  }
+  
+  .btn-square-slant:before {  
+    content: " ";
+    position: absolute;
+    bottom: -5px;
+    left: -1px;
+    width: 0;
+    height: 0;
+    border-width: 0 6px 6px 0px;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom-color: #bebeb8;
+  }
+  
+  .btn-square-slant:after {  
+    content: " ";
+    position: absolute;
+    top: -1px;
+    right: -5px;
+    width: 0;
+    height: 0;
+    border-width: 0px 6px 6px 0px;
+    border-style: solid;
+    border-color: #bebeb8;
+    border-bottom-color: transparent;
+  }
+  
+  .btn-square-slant:active {
+ 
+    border:none;
+    -webkit-transform: translate(6px,6px);
+    transform: translate(6px,6px);
+  }
+  
+  .btn-square-slant:active:after, .btn-square-slant:active:before {
+    content: none;
+  }
+/*
+
+      .slots {
+      width: 48px;
+      height: 94px;
+      border: 2px solid;
+      float: left;
+    }
+    .slots .wrapper {
+      width: 46px;
+    }
+    
+    .slot_machine {
+      border: 1px dotted;
+      display: inline-block;
+      position: relative;
+     top: 100px;
+     right: 0;
+     left: 0;
+     bottom: 0;
+     margin: auto;
+     
+    }
+
+
+
